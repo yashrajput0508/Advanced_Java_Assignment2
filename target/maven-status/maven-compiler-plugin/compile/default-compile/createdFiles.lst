@@ -1,0 +1,5 @@
+com\nagarro\App.class
+com\nagarro\input\UserInput.class
+com\nagarro\filehandler\FileReader.class
+com\nagarro\filehandler\ProductView.class
+com\nagarro\models\TShirtModel.class

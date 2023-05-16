@@ -9,6 +9,7 @@ import com.opencsv.exceptions.CsvException;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -49,7 +50,7 @@ public class FileReader extends Thread {
 	public void run() {
 		while (running.get()) {
 			try {
-				filesList = getFilesList(FOLDERNAME);
+//				filesList = getFilesList(FOLDERNAME);
 				Thread.sleep(5000);
 			} catch (InterruptedException e) {
 				System.out.println("Thread was interrupted, Failed to complete operation");
